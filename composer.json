@@ -1,6 +1,6 @@
 {
     "name": "brunojbela/gulp-framework",
-    "type": "wordpress-gulp",
+    "type": "typo3-cms-extension",
     "description": "Gulp para Framework para Blogs 1.0.0",
     "keywords": ["blog"],
     "homepage": "https://github.com/brunojbela/gulp",
