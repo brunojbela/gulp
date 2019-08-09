@@ -145,7 +145,7 @@ gulp.task('sass', function () {
     gulp.src('development/sass/**/*.scss')
         .pipe(sass({outputStyle: 'compressed'}))
     //.pipe(sass({outputStyle: 'expanded'}))
-        .pipe(rename('editor-style.css'))
+        .pipe(rename('style.css'))
         .pipe(gulp.dest('html/assets/css'))
         .pipe(gulp.dest('wordpress/wp-content/themes/' + theme_folder + '/assets/css'))
         .pipe(livereload());
